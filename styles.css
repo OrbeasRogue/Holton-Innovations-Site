@@ -15,7 +15,7 @@ ul {
   
   li a {
     display: block;
-    color: teal;
+    color: #2d5d73;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,11 +29,85 @@ ul {
     margin: auto;
     width: 60%;
     padding: 10px;
-    text-align: center;
     }
 
    img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    }
+
+    .columns {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      
+    .column-home {
+    flex: 33.33%;
+    }
+
+    .column-about{
+        flex: 1;
+    }
+
+    .center-text{
+        text-align: center;
+    }
+
+    .title{
+        font-family: 'Oswald';
+        font-size: 50px;
+        font-weight: bold;
+        color: #2d5d73;
+    }
+
+    .sub-title{
+        font-family: 'Comfortaa';
+        font-size: 20px;
+        color:dimgrey;
+    }
+
+    .column-header{
+        font-family: 'Oswald';
+        font-size: 30px;
+        font-weight: bold;
+        color: #2d5d73;
+    }
+
+    .about-header{
+        font-family: 'Oswald';
+        font-size: 40px;
+        font-weight: bold;
+        color: #2d5d73; 
+        margin: -5 0 -5 0;
+    }
+
+    .navbar{
+        font-family: 'Quicksand';
+        font-size: 20px;
+        background-color: white;
+        overflow: hidden;
+        top: 0;
+        width: 100%;
+        position:fixed;
+        height: 60px;
+    }
+
+    .footer{
+        background-color: lightgrey;
+        padding: 30px;
+    }
+
+    .copyright{
+        font-size: 10px;
+        color: #2d5d73;
+        font-weight: bold;
+    }
+
+    p{
+        font-family: 'Comfortaa';
+        font-size: 17px;
+        color:dimgrey;
     }
