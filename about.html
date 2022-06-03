@@ -1,44 +1,97 @@
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <LINK href="styles.css" rel="stylesheet" type="text/css">
-        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
-        <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
-      </head>
-    <body>
-        <div class="navbar">
-            <ul>
-                <li style="font-size: 22px"><a class="active" href="index.html">HOLTON INNOVATIONS</a></li>
-                <li style="float:right"><a href="privacy.html">PRIVACY POLICY</a></li>
-                <li style="float:right"><a href="about.html">ABOUT US</a></li>
-                <li style="float:right"><a href="index.html">HOME</a></li>
-              </ul>
-          </div>
-          <br>
-          <div>
-            <img style="width: 80%;" src="Assets/Cleveland.jpg" alt="Logo" style="width:40%" class="center">
-          </div>
-          <div class="center"> 
-              <h1 class="about-header">About Holton Innovations</h1>
-              <p>Holton Innovations is a family-owned company based in Cleveland, Ohio. Orbeas Rogue is their debut app, with a goal of inspiring users to discover the world around them in a way they have never seen before. Holton Innovations is also committed to providing a safe experience for users of all ages, ensuring content and advertising are always age-appropriate. If you have any questions, please email us at info@holtoninnovations.com. </p>
-              <h2 class="about-header">Brief History</h2>
-              <p>CEO Anne Holton enjoyed taking her small fishing boat out on Lake Erie each summer. One day, the waters were too rough to stay on the lake, so she and her father, Gary, decided to take the boat up the Cuyahoga River. Power-boating through the Cleveland waterways, Anne used her smart phone to research old signs on buildings under construction along their route. She and Gary learned fun new facts about former Cleveland businesses, and the idea for Orbeas Rogue was born.</p>
-          </div>
-          <div class="columns">
-            <div class="center-text column-about">
-                <img src="Assets/Unicorn.jpg" alt="Logo" style="width:65%">
-                <p>Description</p>
-            </div>
-            <div class="center-text column-about">
-                <img src="Assets/Boat.jpg" alt="Logo" style="width:65%">
-                <p>Description</p>
-            </div>
-        </div>
-        <footer class="center-text footer">
-            <p>
-            <a href="mailto:info@holtoninnovations.com">info@holtoninnovations.com</a> | CLEVELAND, OHIO | 000.000.0000</p>
-            <p class="copyright">&copy;2021 Holton Innovations. All right reserved.</p>
-          </footer>
-    </body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+        <a class="title"  href="index.html">HOLTON INNOVATIONS</a>
+        <a href="privacy.html">PRIVACY POLICY</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="index.html">HOME</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+  </div>
+    <br />
+    <div class="center-text">
+      <img
+        style="width: 80%"
+        src="Assets/Cleveland.jpg"
+        alt="Logo"
+        style="width: 40%"
+        class="center"
+      />
+      <p style="font-size: 10px">Cleveland, Ohio. October 2020. </p>
+    </div>
+    <div class="center">
+      <h1 class="about-header">About Holton Innovations</h1>
+      <p>
+        Holton Innovations is a family-owned company based in Cleveland, Ohio.
+        Orbeas Rogue is their debut app, with a goal of inspiring users to
+        discover the world around them in a way they have never seen before.
+        Holton Innovations is also committed to providing a safe experience for
+        users of all ages, ensuring content and advertising are always
+        age-appropriate. If you have any questions, please email us at
+        info@holtoninnovations.com.
+      </p>
+      <h2 class="about-header">Brief History</h2>
+      <p>
+        CEO Anne Holton enjoyed taking her small fishing boat out on Lake Erie
+        each summer. One day, the waters were too rough to stay on the lake, so
+        she and her father, Gary, decided to take the boat up the Cuyahoga
+        River. Power-boating through the Cleveland waterways, Anne used her
+        smart phone to research old signs on buildings under construction along
+        their route. She and Gary learned fun new facts about former Cleveland
+        businesses, and the idea for Orbeas Rogue was born.
+      </p>
+    </div>
+    <div class="columns">
+      <div class="center-text column-about">
+        <img src="Assets/Unicorn.jpg" alt="Logo" style="width: 65%" />
+        <p style="font-size: 10px;">Anne, Gary, Grace, and Corny the Unicorn. 
+            October 2020. </p>
+      </div>
+      <div class="center-text column-about">
+        <img src="Assets/Boat.jpg" alt="Logo" style="width: 65%" />
+        <p style="font-size: 10px;">CEO Anne Holton, with daughter Grace. Lake Erie with Cleveland skyline. August 2020.</p>
+      </div>
+    </div>
+    <br>
+    <footer class="center-text footer">
+      <p>
+        <a href="mailto:info@holtoninnovations.com"
+          >info@holtoninnovations.com</a
+        >
+        | CLEVELAND, OHIO | 000.000.0000
+      </p>
+      <p class="copyright">
+        &copy;2021 Holton Innovations. All right reserved.
+      </p>
+    </footer>
+  </body>
 </html>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
