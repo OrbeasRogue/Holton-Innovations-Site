@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
 }
@@ -142,14 +141,14 @@ img {
 }
 
 p {
-  font-family: "Comfortaa";
+  font-family: Calibri, sans-serif;
   font-size: 17px;
   color: dimgrey;
   line-height: 1.6;
 }
 
 .privacy p{
-  font-family: "Comfortaa";
+  font-family: Calibri, sans-serif;
   font-size: 12px;
   color: dimgrey;
   line-height: 1.6;
